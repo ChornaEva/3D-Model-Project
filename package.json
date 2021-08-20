@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://dimatomilow.github.io/3D-Mode-team5",
+  "homepage": "https://chornaeva.github.io/3D-Model-Project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /3D-Mode-team5/"
+    "build": "parcel build src/*.html --public-url /3D-Model-Project/"
   },
   "repository": {
     "type": "git",
