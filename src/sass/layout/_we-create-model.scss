@@ -1,0 +1,70 @@
+.create-model__section {
+  @media screen and (max-width: 767px) {
+
+    padding-top: 248px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 52px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+
+  }
+}
+.create-model__title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 52px;
+  color: $titleColor;
+  letter-spacing: 0;
+  margin-bottom: 16px;
+  max-width: 209px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    margin-bottom: 24px;
+    max-width: 550px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+    margin-bottom: 52px;
+
+    max-width: 648px;
+  }
+}
+.create-model__list {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -16px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+.create-model__item {
+  @media screen and (max-width: 767px) {
+    flex-basis: calc((100% - 26px) / 2);
+    margin-top: 16px;
+    margin-left: 10px;
+  }
+}
+.create-model__item:not(:last-child) {
+  @media screen and (min-width: 768px) {
+    margin-right: 12px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-right: 20px;
+  }
+}
+
+
+.button-link {
+  width: 277px;
+
+}
